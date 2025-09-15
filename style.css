@@ -1,0 +1,13 @@
+:root {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+div {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
