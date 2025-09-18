@@ -9,6 +9,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 div {
     display: flex;
 }
@@ -18,8 +23,8 @@ div {
 }
 
 img {
-    height: 100vh;
     width: auto;
+    height: 100vh;
 }
 
 p {
@@ -75,12 +80,16 @@ button {
     font-size: 16px;
 }
 
-#vert-banner {
+#sidebar > p {
     color: white;
     font-weight: normal;
+    position: relative;
+    bottom: 36px;
+    align-self: center;
+    font-size: 12px;
 }
 
-#vert-banner > p > a {
+#sidebar > p > a {
     color: white;
     text-decoration: underline;
     font-weight: normal;
