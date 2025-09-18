@@ -8,49 +8,51 @@
     </head>
     <body>
         <div>
-            <div class="col">
+            <div id="vert-banner" class="col">
                 <img src="./images/forest-background.jpg">
                 <p>Photo by <a href="https://unsplash.com/@olenkasergienko?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Olena Bohovyk</a> on <a href="https://unsplash.com/photos/green-pine-tree-during-daytime-3BlVILvh9hM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
             </div>
-            <div class="col center-items">
+            <div id="login" class="col center-items">
                 <p>This is not a real online service! This page is just for practice. But you can still "sign up" using the form below.</p>
                 <p>This is a project based on The Odin Project!</p>
                 <form>
-                    <div>
-                        <div class="col">
-                            <label for="first_name">First Name</label>
-                            <input type="text" id="first_name" name="first_name" required="true">
+                    <fieldset>
+                        <legend>Let's do this!</legend>
+                        <div>
+                            <div class="col">
+                                <label for="first_name">First Name</label>
+                                <input type="text" id="first_name" name="first_name" required="true">
+                            </div>
+                            <div class="col">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" id="last_name" name="last_name" required="true">
+                            </div>
                         </div>
-                        <div class="col">
-                            <label for="last_name">Last Name</label>
-                            <input type="text" id="last_name" name="last_name" required="true">
+                        <div>
+                            <div class="col">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required="true">
+                            </div>
+                            <div class="col">
+                                <label for="phone_number">Phone Number</label>
+                                <input type="tel" id="phone_number" name="phone_number">
+                            </div>
                         </div>
-                    </div>
-                    <div>
-                        <div class="col">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required="true">
+                        <div>
+                            <div class="col">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" required="true">
+                            </div>
+                            <div class="col">
+                                <label for="confirm_password">Confirm Password</label>
+                                <input type="password" id="confirm_password" name="confirm_passord" required="true">
+                            </div>
                         </div>
-                        <div class="col">
-                            <label for="phone_number">Phone Number</label>
-                            <input type="tel" id="phone_number" name="phone_number">
-                        </div>
-                    </div>
-                    <div>
-                        <div class="col">
-                            <label for="password">Password</label>
-                            <input type="password" id="password" name="password" required="true">
-                        </div>
-                        <div class="col">
-                            <label for="confirm_password">Confirm Password</label>
-                            <input type="password" id="confirm_password" name="confirm_passord" required="true">
-                        </div>
-                    </div>
+                    </fieldset>
                     <button type="submit">Create Account</button>
                 </form>
                 <p>Already have an account? <a href="">Log in</a></p>
             </div> 
         </div>
-        
     </body>
 </html>

@@ -1,6 +1,8 @@
 :root {
     --label-gray: rgb(51, 51, 51);
     --dark-green: rgb(54, 92, 54);
+    --light-shadow: rgb(183, 183, 183);
+    --blue-focus: rgb(0, 110, 255);
     margin: 0px;
     padding: 0px;
     font-size: 16px;
@@ -35,7 +37,10 @@ input {
 }
 
 input {
-    width: 150px;
+    width: 200px;
+    margin-right: 24px;
+    margin-bottom: 16px;
+    margin-top: 2px
 }
 
 label {
@@ -53,6 +58,44 @@ button {
     color: white;
     font-weight: bold;
     padding: 12px 36px;
-    border-style: none;
+    border: none;
     border-radius: 6px;
+}
+
+#login {
+    padding-left: 48px;
+    padding-right: 112px;
+}
+
+#login > p {
+    font-size: 24px;
+}
+
+#login > p:last-child {
+    font-size: 16px;
+}
+
+#vert-banner {
+    color: white;
+    font-weight: normal;
+}
+
+#vert-banner > p > a {
+    color: white;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+input:focus {
+    outline: none;
+    border: solid var(--blue-focus) 2px;
+    border-radius: 4px;
+    box-shadow: var(--light-shadow) 1px 1px 2px 1px;
+}
+
+input:invalid {
+    outline: none;
+    border: solid red 2px;
+    border-radius: 4px;
+    box-shadow: none;
 }
