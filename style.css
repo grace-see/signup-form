@@ -1,3 +1,10 @@
+/* font source (amoria): https://www.dafont.com/amoria.font */
+
+@font-face {
+    font-family: amoria;
+    src: url('./fonts/AMORIA.otf')
+}
+
 :root {
     --label-gray: rgb(51, 51, 51);
     --dark-green: rgb(54, 92, 54);
@@ -91,13 +98,25 @@ legend {
     font-size: 16px;
 }
 
-#sidebar > p {
+#sidebar > p,
+#sidebar > div > p {
     color: white;
     font-weight: normal;
-    position: relative;
-    bottom: 36px;
+}
+
+#sidebar > p {
+    position: absolute;
+    bottom: 8px;
     align-self: center;
     font-size: 12px;
+}
+
+#sidebar > div > p {
+    position: absolute;
+    top: 260px;
+    left: 90px;
+    font-family: amoria;
+    font-size: 60px;
 }
 
 #sidebar > p > a {
@@ -124,4 +143,12 @@ form > button {
     margin-left: 48px;
     margin-top: 36px;
     margin-bottom: 20px;
+}
+
+#globe {
+    width: 60px;
+    height: auto;
+    position: absolute;
+    top: 320px;
+    left: 20px;
 }
