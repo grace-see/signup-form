@@ -57,6 +57,7 @@ input {
 
 label {
     font-size: 12px;
+    font-weight: bold;
     color: var(--label-gray);
 }
 
