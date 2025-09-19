@@ -1,1 +1,2 @@
 # signup-form
+This project was to get some practice working with more advanced CSS styling, as well as getting familiar with creating forms. Styling the form involved using pseudo-classes in order to achieve the desired effect, and the sidebar required playing around with positioning in order to get everything where it needed to be.
