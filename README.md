@@ -3,3 +3,5 @@ This project was to get some practice working with more advanced CSS styling, as
 
 Font credits:
 https://www.dafont.com/amoria.font
+Globe SVG credits:
+https://www.svgrepo.com/svg/513454/globe-1
